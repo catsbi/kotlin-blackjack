@@ -5,7 +5,7 @@ import io.kotest.core.spec.style.FunSpec
 import io.kotest.matchers.shouldBe
 import java.lang.IllegalArgumentException
 
-class NumberCardTest : FunSpec ({
+class NumberCardTest : FunSpec({
 
     test("숫자 카드는 2 ~ 9사이의 값을 가질 수 있다") {
         (2..9).forEach {

@@ -6,11 +6,10 @@ enum class FaceType {
     fun firstChar(): Char = name.first()
 }
 
-class FaceCard (override val category: DeckType, val faceType: FaceType) : Card {
+class FaceCard(override val category: DeckType, val faceType: FaceType) : Card {
 
     override val name: String
         get() = faceType.firstChar().toString()
-
 
     override fun point(input: Int): Int = POINT
 

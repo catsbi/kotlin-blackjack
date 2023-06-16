@@ -16,5 +16,4 @@ class AceCard(override val category: DeckType) : Card {
         const val MAX_VALUE = 11
         const val THRESHOLD = 21
     }
-
 }
